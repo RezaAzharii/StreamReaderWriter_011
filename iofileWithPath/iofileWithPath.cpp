@@ -27,5 +27,6 @@ int main() {
 	//Selesai dalam menulis sekarang tutup filenya
 	outfile.close();
 
-
+	
+	
 }
