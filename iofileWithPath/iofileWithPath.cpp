@@ -7,5 +7,12 @@ int main() {
 	string baris;
 	string namafile;
 
+	//membuka file dalam mode menulis.
+	ofstream outfile;
+	//menunjuk ke sebuah nama file
+	outfile.open(namafile+".txt", ios::out);
+
+	cout << ">= Menulis file, \'q\' untuk keluar" << endl;
+
 	
 }
